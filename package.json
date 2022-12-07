@@ -2,7 +2,7 @@
   "name": "intro-to-express",
   "version": "1.0.0",
   "description": "There are no tests for this assignment. The bonus is to write your own tests. Your instructors will still review your work on Github.",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest"
   },
