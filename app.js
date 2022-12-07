@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (request, response) => {
-  response.send("Hello, world!");
+  response.status(418).send("Hello, world!");
 });
 
 app.get("/terminator", (request, response) => {
